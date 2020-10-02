@@ -99,6 +99,10 @@ nav li a:hover {
   text-align: left;
   font-size: 2.5vh; }
 
+#Box select {
+  height: 3.5vh;
+  font-size: 2.5vh; }
+
 #calculate {
   background-color: #339235;
   color: white;
@@ -108,7 +112,8 @@ nav li a:hover {
   cursor: pointer;
   width: 10vw;
   height: 4vh;
-  border-radius: 4px; }
+  border-radius: 4px;
+  font-size: 2.5vh; }
 
 #result {
   margin-top: 1vh;
