@@ -210,7 +210,8 @@ footer h3 {
   display: flex;
   flex-basis: 100%;
   flex-direction: column;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  min-height: 100vh; }
 
 #teamContent div {
   width: 45%;
@@ -219,21 +220,24 @@ footer h3 {
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+  font-size: 1.5vw;
   margin-top: 5vh;
   margin-bottom: 5vh; }
 
 #teamContent div img {
   width: 100px;
   height: 100px;
+  transition: 1s;
   cursor: pointer; }
 
 #teamContent div div {
   align-items: baseline; }
 
 #teamContent div div p {
-  margin: 5px; }
+  margin: 5px;
+  font-size: 1.5vw; }
 
-@media only screen and (max-width: 681px) {
+@media (max-width: 681px) {
   body {
     margin: 0; }
 

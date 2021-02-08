@@ -4,6 +4,7 @@
 	<title>CF Car Insurence</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
 	<header>
@@ -30,7 +31,7 @@
 				<div id="selection">
 					<div id="Box">
 						<label for="yourName">Your name:</label>
-						<input id="yourName" type="text" name="yourName"><br id="mobile">
+						<input id="yourName" type="text" name="yourName" required><br id="mobile">
 						<label for="country">Country:</label>
 						<select id="country" name="country">
 							<option value="Austria">Austria</option>
@@ -40,9 +41,9 @@
 					</div>
 					<div id="Box">
 						<label for="age">Age:</label>
-						<input id="age" type="text" name="age"><br id="mobile">
+						<input id="age" type="number" name="age" min="18" required><br id="mobile">
 						<label for="horsepower">Horsepower of your car:</label>
-						<input id="horsepower" type="text" name="horsepower">
+						<input id="horsepower" type="number" name="horsepower" min="1" required>
 					</div>
 				</div>
 				<input id="calculate" type="submit" value="Calculate">
